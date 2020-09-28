@@ -1,4 +1,4 @@
-#Pesquisa Operacional
+# Pesquisa Operacional
 
 ## Sistema Operaciional
 Linux Mint 19.2 Cinnamon
@@ -13,7 +13,9 @@ openjdk 11.0.8 2020-07-14
 OpenJDK Runtime Environment (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1)
 OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1, mixed mode, sharing)
 
-## 
+## Extensions VS Code
+Java Extension Pack
+
 
 ## Começando
 
