@@ -1,6 +1,6 @@
 # Pesquisa Operacional
 
-## Sistema Operaciional
+## Sistema Operacional
 Linux Mint 19.2 Cinnamon
 
 ## Editor de texto
@@ -16,18 +16,17 @@ OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1, mixed mod
 ## Extensions VS Code
 Java Extension Pack
 
+## Getting Started
 
-## Começando
+Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
-Bem-vindo ao mundo do VS Code Java. Aqui está uma diretriz para ajudá-lo a começar a escrever código Java no Visual Studio Code.
+## Folder Structure
 
-## Estrutura da Pasta
+The workspace contains two folders by default, where:
 
-O espaço de trabalho contém duas pastas por padrão, onde:
+- `src`: the folder to maintain sources
+- `lib`: the folder to maintain dependencies
 
-- `src`: a pasta para manter as fontes
-- `lib`: a pasta para manter as dependências
+## Dependency Management
 
-## Gerenciamento de Dependências
-
-A visão `JAVA DEPENDENCIES` permite que você gerencie suas dependências. Mais detalhes podem ser encontrados [aqui] (https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
