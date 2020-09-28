@@ -8,13 +8,24 @@ Visual Studio Code
 
 ## Compilador
 javac 11.0.8
-Java Development Kit - JDK
-openjdk 11.0.8 2020-07-14
-OpenJDK Runtime Environment (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1)
-OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1, mixed mode, sharing)
+Java Development Kit - JDK <br>
+openjdk 11.0.8 2020-07-14 <br>
+OpenJDK Runtime Environment (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1) <br>
+OpenJDK 64-Bit Server VM (build 11.0.8+10-post-Ubuntu-0ubuntu118.04.1, mixed mode, sharing) <br>
 
 ## Extensions VS Code
 Java Extension Pack
+
+## Executando o código
+Pelo terminal entra no diretorio onde o arquivo se encontra. <br>
+jode o comando javac 'nameFile.java' <br>
+irá ser criado um arquivo nameFile.class <br>
+Em seguda rode o comando  java nameFile <br>
+### Exemplo:
+~/Área de Trabalho/sistemas-de-informacao/pesquisa-operacional/list1/src (master)$ javac App.java <br>
+~/Área de Trabalho/sistemas-de-informacao/pesquisa-operacional/list1/src (master)$ java App <br>
+Hello, World! <br>
+~/Área de Trabalho/sistemas-de-informacao/pesquisa-operacional/list1/src (master)$ <br>
 
 ## Getting Started
 
