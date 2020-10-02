@@ -5,10 +5,10 @@ public class six {
 
     String dirname = "../text/";
     int size;
-    int[][] adjacencia = new int[6][6];
     Scanner scan = new Scanner(System.in);
     int linha;
     int coluna;
+    int[][] adjacencia = new int[linha][coluna];
     int[][] grafo = new int[linha][coluna];
 
     public void open(){
@@ -39,6 +39,13 @@ public class six {
         }
     }
     public void matadjacencia(){
+        size =0;
+        for(int i =0; i<Math.sqrt(grafo.length); i++){
+            for(int j =0; j<Math.sqrt(grafo.length); j++){
+                size++;
+            }
+        }
+        adjacencia = new int[size][size];
         for(int i =0; i<Math.sqrt(grafo.length); i++){
             for(int j =0; j<Math.sqrt(grafo.length); j++){
                adjacencia[i][j] = 0;
