@@ -40,14 +40,14 @@ public class six {
     }
     public void matadjacencia(){
         size =0;
-        for(int i =0; i<Math.sqrt(grafo.length); i++){
-            for(int j =0; j<Math.sqrt(grafo.length); j++){
+        for(int i =0; i<Math.sqrt(grafo.length)+1; i++){
+            for(int j =0; j<Math.sqrt(grafo.length)+1; j++){
                 size++;
             }
         }
         adjacencia = new int[size][size];
-        for(int i =0; i<Math.sqrt(grafo.length); i++){
-            for(int j =0; j<Math.sqrt(grafo.length); j++){
+        for(int i =0; i<Math.sqrt(grafo.length)+1; i++){
+            for(int j =0; j<Math.sqrt(grafo.length)+1; j++){
                adjacencia[i][j] = 0;
             }
         }
@@ -58,9 +58,9 @@ public class six {
     public void printAdjacencia(){
         System.out.println();
         System.out.println("Matriz de adjacencia");
-        for(int i =0; i<Math.sqrt(grafo.length); i++){
+        for(int i =0; i<Math.sqrt(grafo.length)+1; i++){
             System.out.println();
-            for(int j =0; j<Math.sqrt(grafo.length); j++){
+            for(int j =0; j<Math.sqrt(grafo.length)+1; j++){
                System.out.print(adjacencia[i][j] + " ");
             }
         }
@@ -79,8 +79,8 @@ public class six {
     public void grauDosVertices(){
         int soma = 0;
         System.out.println("grau dos vertices");
-        for(int i =0; i<Math.sqrt(grafo.length); i++){
-            for(int j =0; j<Math.sqrt(grafo.length); j++){
+        for(int i =0; i<Math.sqrt(grafo.length)+1; i++){
+            for(int j =0; j<Math.sqrt(grafo.length)+1; j++){
                 soma = adjacencia[i][j] + soma;
             }
             System.out.println(" grau vertice " + i + ": " + soma);
