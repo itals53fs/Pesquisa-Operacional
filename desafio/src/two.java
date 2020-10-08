@@ -198,11 +198,51 @@ public class two {
   }
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    boolean op;
-    /*System.out.println("Aqui estão todas as pergutas da questão 2\nQuer executar tudo ou escolher: 1 sim, 0 nao");*/
-      two fun = new two();
-      fun.open();
-      fun.readFile();
+    String op;
+    int veri;
+    two fun = new two();
+    fun.open();
+    fun.readFile();
+    System.out.println("Aqui estão todas as pergutas da questão 2\nQuer executar tudo ou escolher: 1 escolher, 0 nao");
+    veri = in.nextInt();
+    if(veri==1){
+      System.out.println("as questoes sao de 'a' a 'h' insira uma letra");
+      op = in.next();
+      switch(op){
+        case "a":
+        fun.cidadeK();
+        break;
+        case "b":
+        fun.maiorNcidades();
+        break;
+        case "c":
+        fun.maodubla();
+        break;
+        case "d":
+        fun.saidaK();
+        break;
+        case "e":
+        fun.isolada();
+        fun.naoSaida();
+        fun.naoEntrada();
+        break;
+        case "f":
+        fun.roteiro();
+        break;
+        case "g":
+        int origem;
+        int destino;
+        System.out.print("Insira cidade de origem: ");
+        origem = in.nextInt();
+        System.out.print("Insira cidade de detino: ");
+        destino = in.nextInt();
+        fun.menorCaminho(origem, destino);
+        break;
+        case "h":
+        System.out.print("Não foi implementada ainda :/");
+        break;
+      }
+    }else{
       fun.cidadeK();
       fun.maiorNcidades();
       fun.maodubla();
@@ -218,5 +258,6 @@ public class two {
       System.out.print("Insira cidade de detino: ");
       destino = in.nextInt();
       fun.menorCaminho(origem, destino);
+    }
   }
 }
