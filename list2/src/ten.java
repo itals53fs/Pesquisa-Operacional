@@ -8,7 +8,7 @@ public class ten {
   int somaB=0;
   int [][] matA; 
   int [][] matB;
-  int [][] resp;
+  int resp=0;
   String dirname = "../text/";
   Scanner scan = new Scanner(System.in);
   Scanner in = new Scanner(System.in);
@@ -45,23 +45,14 @@ public class ten {
     }
   }
     public void mult(){
-      resp = new int[size][size];
       for(int i=0; i<size; i++){
         for(int j=0; j<size; j++){
-          resp[i][j] = matA[i][j]*matB[i][j];
+          resp = matA[i][j]*matB[i][j]+resp;
             
         }
       }
-        System.out.print("Somatório da matrizes: ");
-        for(int i=0; i<size; i++){
-          System.out.println();
-          for(int j=0; j<size; j++){
-            System.out.print(resp[i][j]+" ");
-              
-          }
-        }
+        System.out.println("Somatório da matrizes: "+resp);
     }
-  
    
     public static void main(String[] args) {
       ten somatorio = new ten();
