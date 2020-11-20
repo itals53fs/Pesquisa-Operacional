@@ -11,7 +11,11 @@ import gurobi .*;
 
 /**
  *
+<<<<<<< HEAD
  * @author tales
+=======
+ * @author 55389
+>>>>>>> 1f5cb0e6eb642cea3e1d5fb184c48ebc5e5ee427
  */
 public class One {
 
