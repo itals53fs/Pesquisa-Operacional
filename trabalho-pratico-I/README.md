@@ -8,7 +8,7 @@ Sistema operacionla windows <br>
 
 Fiz a migração para o windows, pois tive problemas na instalação do gurobi no linux <br>
 
-## O githube tem limte de megas enviados, por isso video do windows encontra <a href="https://drive.google.com/file/d/1OhwsSIXeVzWPGP7HBg4bLsPbDYC-p7Kf/view?usp=sharing">aqui</a>
+## O githube tem limte de megas enviados, por isso video do window se encontra <a href="https://drive.google.com/file/d/1OhwsSIXeVzWPGP7HBg4bLsPbDYC-p7Kf/view?usp=sharing">aqui</a>
 ## O githube tem limte de megas enviados, por isso video do Linux se encontra <a href="https://drive.google.com/file/d/1ElJLdGlhQKGVp72afYGCp_UTcMFjT5hz/view?usp=sharing">aqui</a>
 
 =======
