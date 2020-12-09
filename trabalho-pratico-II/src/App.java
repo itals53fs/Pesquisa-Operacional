@@ -10,7 +10,6 @@ public class App {
     int coluna;
     int linha;
     float[][] A; // Matriz A
-    float[] vetSolu;
     String tipo = "MAX";
     float z; // Resultado do Custo
 
@@ -47,9 +46,9 @@ public class App {
         if(tipo.equals("MIN")){
             for (int i = 0; i < coluna; i++) {
                 A[A.length-1][i] =  A[A.length-1][i]*-1;
-                System.out.println(" Cadê MIN");
             }
         }
+        System.out.println("O problema é de " + tipo);
         
     }
 
@@ -132,17 +131,11 @@ public class App {
         System.out.println("\nSolução");
         float soma;
         int index = 0;
-        vetSolu = new float[linha];
-        for (int i = 0; i < linha; i++) {
-            vetSolu[i] = A[i][coluna - 1];
-        }
-
         for (int j = 0; j < coluna - 1; j++) {
             soma = 0;
             for (int i = 0; i < linha; i++) {
                 soma += A[i][j];
             }
-
             if (soma == 1) {
                 for (int i = 0; i < linha; i++) {
                     if (A[i][j] == 1) {
