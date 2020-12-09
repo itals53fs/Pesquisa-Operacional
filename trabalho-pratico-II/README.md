@@ -1,4 +1,4 @@
-### O githube tem limte de megas enviados, por isso video do window se encontra <a href="https://drive.google.com/file/d/1efyFe8iqkEnRPs_23hpUdmLShWvPrAvJ/view?usp=sharing">aqui</a>
+### O githube tem limte de megas enviados, por isso video se encontra <a href="https://drive.google.com/file/d/1efyFe8iqkEnRPs_23hpUdmLShWvPrAvJ/view?usp=sharing">aqui</a>
 
 ## A execução do arquivo segue o exemplo do README pricipal que está na raiz do repositório
 ### O formato do txt
