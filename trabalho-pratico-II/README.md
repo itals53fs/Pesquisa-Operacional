@@ -1,4 +1,4 @@
-## A execução do arquivo segue o exemplo do README pricipal que tá na raiz do repositório
+## A execução do arquivo segue o exemplo do README pricipal que está na raiz do repositório
 ### O formato do txt
 4   6  (número de linhas e colunas) <br>
   mat A     V.Básicas   V.B   <br>
@@ -6,12 +6,14 @@
 |9   6  |    |0 1 0|   |108|  <br>
 |0   1  |    |0 0 1|   | 8 |  <br>
 <b>400  500      0 0 0    | 0 | <b>vet C <br>
+MAX/MIN
 ### Exemplo
 4 6 <br>
 5 10 1 0 0 100  <br>
 9 6 0 1 0 108 <br>
 0 1 0 0 1 8 <br>
 400 500 0 0 0 0 <br>
+MAX
 ## Getting Started
 
 Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
